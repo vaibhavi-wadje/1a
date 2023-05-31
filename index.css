@@ -1,0 +1,20 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+.profilecard{
+  margin-top: 100px;
+}
+.container{
+  animation-name: example1;
+  animation-duration: 4s;
+         
+}
+@keyframes example1{
+     from{
+       background-color: lightgreen;
+     }
+     to{
+      background-color: yellow;
+     }
+}

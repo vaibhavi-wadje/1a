@@ -1,0 +1,37 @@
+.profileImg {
+    margin-left: -40%;
+    margin-top: 70%;
+  }
+  @property --p {
+    syntax: "<number>";
+    inherits: true;
+    initial-value: 1;
+  }
+  .statistics {
+    margin-left: 20%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 60%;
+  }
+  
+  .card {
+    align-items: center;
+  }
+  .profileCard {
+    align-items: left;
+    min-width: max-content;
+    width: 35%;
+  }
+  
+  
+  .no-round:before {
+    background-size: 0 0, auto;
+  }
+  .no-round:after {
+    content: none;
+  }
+  @keyframes p {
+    from {
+      --p: 0;
+    }
+  }
